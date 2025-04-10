@@ -21,7 +21,15 @@ h2, h3, h4, h5 {
   font-family: 'Inter', serif;
 }
 
-hr { margin: 1em 0; }
+hr { 
+  margin: 1em 0; 
+  border: none;
+  border-top: 2px dotted;
+}
+
+hr.section {
+  margin: 0;
+}
 
 hr.page-break {
   text-align: center;
@@ -224,4 +232,14 @@ p code, li code {
   font-weight: bold;
   text-transform: lowercase;
   //border: 1px solid var(--text-secondary);
+}
+
+.section-header { 
+  font-family: 'Inter', serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 0;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+  opacity: 0.1;
 }

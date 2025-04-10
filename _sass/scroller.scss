@@ -1,0 +1,25 @@
+.scroll-container {
+  display: flex;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  user-select: none;
+  gap: 0.6em;
+}
+
+.scroll {
+  display: flex;
+  margin-top: -0.1em;
+  margin-bottom: 0.1em;
+  flex-shrink: 0;
+  min-width: 100%;
+  align-items: center;
+  gap: 0.6em;
+  animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - 0.6em));
+  }
+}
