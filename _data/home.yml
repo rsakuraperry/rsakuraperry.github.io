@@ -7,29 +7,31 @@ navbar_entries:
 
 project_entries:
   - title: Project 1
-    url: overview-post
+    id: overview-post
     desc: This is an example project, configured in _data/home.yml
+    img: https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2611580/ss_2da7b76b3005c84545423b588ee3d648ba32d725.600x338.jpg?t=1741908604
 
   - title: Project 2
-    url: overview-post
+    id: overview-post
     desc: Projects are shown in card layout
+    img: https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2611580/extras/gif_1.gif?t=1741908604
 
   - title: Project 3
-    url: overview-post
+    id: overview-post
     desc: You can control visibility from _config.yml file
 
   - title: Project 4
-    url: overview-post
+    id: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
   - title: Project 5
-    url: overview-post
+    id: overview-post
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
   - title: Project 6
-    url: overview-post
+    id: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
